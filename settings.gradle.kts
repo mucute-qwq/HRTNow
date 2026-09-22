@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ModernAndroidTemplate"
+rootProject.name = "HRTNow"
 include(":app")
 include(":shared")

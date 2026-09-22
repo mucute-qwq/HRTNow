@@ -1,4 +1,4 @@
-package io.github.mucute.qwq.modernandroidtemplate.activity
+package io.github.mucute.qwq.hrtnow.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
-import io.github.mucute.qwq.modernandroidtemplate.shared.ui.theme.ModernAndroidTemplateTheme
+import io.github.mucute.qwq.hrtnow.shared.ui.theme.HRTNowTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -17,11 +17,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ModernAndroidTemplateTheme {
-                Scaffold(modifier = Modifier.Companion.fillMaxSize()) { innerPadding ->
+            HRTNowTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Text(
                         text = "Hello world!",
-                        modifier = Modifier.Companion
+                        modifier = Modifier
                             .padding(innerPadding)
                     )
                 }

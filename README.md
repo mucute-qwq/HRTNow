@@ -1,2 +1,2 @@
-# ModernAndroidTemplate
-A template repository, which is used for creating modern Android project
+# HRTNow
+A more friendly tool to do HRT

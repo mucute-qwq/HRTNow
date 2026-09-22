@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "io.github.mucute.qwq.modernandroidtemplate.shared"
+    namespace = "io.github.mucute.qwq.hrtnow.shared"
 }
 
 dependencies {

@@ -1,4 +1,4 @@
-package io.github.mucute.qwq.modernandroidtemplate.application
+package io.github.mucute.qwq.hrtnow.application
 
 import android.app.Application
 

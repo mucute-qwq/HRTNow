@@ -28,7 +28,7 @@ fun Project.configureApplicationExtension() {
             create("shared") {
                 storeFile = file("../buildKey.jks")
                 storePassword = "123456"
-                keyAlias = "ModernAndroidTemplate"
+                keyAlias = "HRTNow"
                 keyPassword = "123456"
                 enableV1Signing = true
                 enableV2Signing = true

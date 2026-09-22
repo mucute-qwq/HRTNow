@@ -1,4 +1,4 @@
-package io.github.mucute.qwq.modernandroidtemplate.shared.ui.theme
+package io.github.mucute.qwq.hrtnow.shared.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -15,7 +15,7 @@ private val DarkColorScheme = darkColorScheme()
 private val LightColorScheme = lightColorScheme()
 
 @Composable
-fun ModernAndroidTemplateTheme(
+fun HRTNowTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
